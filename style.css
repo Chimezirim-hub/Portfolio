@@ -500,3 +500,47 @@ footer {
         padding: 25px;
     }
 }
+
+@media (max-width: 667px) {
+
+    .hero-content,
+    .about-content,
+    .form-row {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        text-align: center;
+        gap: 40px;
+    }
+
+    .profile-pic img {
+        width: 250px;
+        height: 250px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-container h1,
+    .services-container h1,
+    .contact-section h1 {
+        font-size: 2rem;
+    }
+
+    .contact-form {
+        padding: 25px;
+    }
+}
